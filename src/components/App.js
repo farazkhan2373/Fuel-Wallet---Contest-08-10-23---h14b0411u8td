@@ -5,7 +5,7 @@ import Users from "./Users";
 import Wallet from "./Wallet";
 import reducer from "../reducers";
 const App = () => {
-    console.log("here");
+    console.log("here hello");
     const [balance, setBalance] = useState(0);
     const [users, dispatch] = useReducer(reducer, []);
     return (
